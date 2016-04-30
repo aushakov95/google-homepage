@@ -1,0 +1,46 @@
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 198px;
+}
+
+.searchbox {
+
+    border: 1px light gray;
+    width: 570px;
+    height: 35px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+.buttons {
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+input[type=submit] {
+    -webkit-appearance: none;
+    background-color: #f2f2f2;
+    color: #666;
+    font-weight:bold;
+    border: 0;
+    font-size: 13px;
+    width: 11em;  height: 3em;
+}
+
+input[type=submit]:hover {
+    -webkit-appearance: none;
+    background-color: #f2f2f2;
+    color: #666;
+    font-weight:bold;
+    border: 1px solid gray;
+    font-size: 13px;
+    width: 11em;  height: 3em;
+}
