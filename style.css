@@ -1,3 +1,4 @@
+
 .logo {
     display: block;
     margin-left: auto;
@@ -17,17 +18,14 @@
 
 }
 
-
-
 .buttons {
     text-align: center;
     padding-top: 25px;
-
 }
 
 input[type=submit] {
     -webkit-appearance: none;
-    background-color: #f2f2f2;
+    background-color: #f4f4f4;
     color: #666;
     font-weight:bold;
     border: 0;
@@ -37,4 +35,80 @@ input[type=submit] {
 
 input[type=submit]:hover {
     border: 1px solid gray;
+}
+
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    right:0;
+}
+
+#header li {
+    display: inline;
+    font-size: 15px;
+}
+
+#header li a {
+    display: inline;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #404040;
+}
+
+#footer_l ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    float:left;
+
+
+}
+
+#footer_l li {
+    display: inline;
+    background-color: #f2f2f2;
+    float: left;
+    font-size: 15px;
+    font-weight: normal;
+    vertical-align: bottom;
+
+}
+
+#footer_l li a {
+
+    display: block;
+    color: #404040;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+
+}
+
+#footer_r li {
+    display: inline;
+    background-color: #f2f2f2;
+    float: right;
+    font-size: 15px;
+    font-weight: normal;
+    vertical-align: bottom;
+
+}
+
+#footer_r li a {
+
+    display: block;
+    color: #404040;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+
 }
