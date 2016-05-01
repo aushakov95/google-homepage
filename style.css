@@ -36,11 +36,5 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    -webkit-appearance: none;
-    background-color: #f2f2f2;
-    color: #666;
-    font-weight:bold;
     border: 1px solid gray;
-    font-size: 13px;
-    width: 11em;  height: 3em;
 }
